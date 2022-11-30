@@ -17,39 +17,54 @@
 
   <body>
     <header class="main-heder">
-      <a class="heder-logo">Техномарт</a>
+      <div class="wrapper-navigation">
+        <p class="heder-logo">
+          <a>Техномарт</a>
+        </p>
 
-      <form class="search" action="echo.htmlacademy.ru" method="post">
-        <input type="text" name="Поиск" placeholder="Пойск: " />
-      </form>
+        <form class="search" action="echo.htmlacademy.ru" method="post">
+          <input
+            class="search-text"
+            type="text"
+            name="Поиск"
+            placeholder="Пойск: "
+          />
+        </form>
 
-      <ul class="user-navigation">
-        <li>
-          <a href="blank.html">Закладки: 0</a>
-        </li>
-        <li>
-          <a href="blank.html">Корзина: 0</a>
-        </li>
-        <li>
-          <a href="blank.html">Оформить заказ</a>
-        </li>
-      </ul>
+        <ul class="user-navigation">
+          <li>
+            <a href="blank.html">Закладки: 0</a>
+          </li>
+          <li>
+            <a href="blank.html">Корзина: 0</a>
+          </li>
+          <li>
+            <a href="blank.html">Оформить заказ</a>
+          </li>
+        </ul>
+      </div>
 
-      <p>Интернет-магазинстроительных материалови инструментов для ремонта</p>
+      <p class="text-privaw">
+        Интернет-магазинстроительных материалови инструментов для ремонта
+      </p>
 
       <span class="contact-number">
-        <a href="tel:+7 800 555-86-28">+78005558628</a>
+        <a href="tel:+7 800 555-86-28">+7 800 555-86-28</a>
       </span>
-      <p>г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</p>
+      <p class="adres-heder">г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</p>
 
       <form class="login-form" action="echo.htmlacademy.ru" method="post">
         <h2>Вход в личный кабинет</h2>
-        <button type="submit">Войти</button>
-        <button type="submit">Регистрация</button>
+        <button class="login-form-botton login-button" type="submit">
+          Войти
+        </button>
+        <button class="login-form-botton registration-button" type="submit">
+          Регистрация
+        </button>
       </form>
 
       <nav class="main-navigation">
-        <ul>
+        <ul class="list-navigation">
           <li>
             <a>Главная</a>
           </li>
@@ -81,20 +96,32 @@
         <ul class="categories-list">
           <li class="category-item">
             <h3>Материалы</h3>
-            <a href="blank.html">На любой вкус</a>
+            <img
+              src="/tehnomart/img/svg_icon/icon-1.svg"
+              alt="Ведро с краской"
+            />
+            <a href="#">На любой вкус</a>
             <p class="new_item">new</p>
           </li>
           <li class="category-item">
             <h3>Инструмент</h3>
-            <a href="blank.html">На все случаи</a>
+            <img src="/tehnomart/img/svg_icon/icon-2.svg" alt="Дрель" />
+            <a href="#">На все случаи</a>
           </li>
           <li class="category-item">
             <h3>Техника</h3>
-            <a href="blank.html">Скидка 50%</a>
+            <img src="/tehnomart/img/svg_icon/icon-3.svg" alt="Техника" />
+            <a href="#">Для стройки</a>
+          </li>
+          <li class="category-item">
+            <h3>Скидка 50%</h3>
+            <img src="/tehnomart/img/svg_icon/icon-4.svg" alt="Скидка" />
+            <a href="#">На 350 товаров</a>
           </li>
           <li class="category-item">
             <h3>Доставка</h3>
-            <a href="blank.html">Бесплатно</a>
+            <img src="/tehnomart/img/svg_icon/icon-5.svg" alt="Доставка" />
+            <a href="#">Бесплатно</a>
           </li>
 
           <li class="slider">
@@ -108,10 +135,10 @@
             <a class="button gallery-button" href="blank.html"
               >Открыть каталог</a
             >
-            <button class="button gallery-button-back" type="button">
+            <button class="button-gallery gallery-button-back" type="button">
               Назад
             </button>
-            <button class="button gallery-button-next" type="button">
+            <button class="button-gallery gallery-button-next" type="button">
               Вперед
             </button>
           </li>
@@ -119,10 +146,12 @@
       </section>
 
       <section class="popular-goods">
-        <h2>Популярные товары:</h2>
-        <a class="button popular-goods-button" href="blank.html"
-          >Все популярные товары</a
-        >
+        <div class="popular-goods-box">
+          <h2>Популярные товары:</h2>
+          <a class="button popular-goods-button" href="blank.html"
+            >Все популярные товары</a
+          >
+        </div>
         <ul class="popular-goods-list">
           <li class="goods-item">
             <p class="catalog-item-img">
@@ -136,8 +165,8 @@
             <h3>
               <a href="blank.html">Перфоратор BOSCHBFG 9000</a>
             </h3>
-            <p class="old_price">32500 Р.</p>
-            <p class="new-price">25500 Р.</з>
+            <p class="price old_price">32500 Р.</p>
+            <p class="price new-price">25500 Р.</p>
 
             <button class="button button-buy" type="button">Купить</button>
             <button class="button-bookmark" type="button">В закладки</button>
@@ -155,8 +184,8 @@
             <h3>
               <a href="blank.html">Перфоратор BOSCHBFG 3000</a>
             </h3>
-            <p class="old_price">22500 Р.</p>
-            <p class="new-price">15500 Р.</p>
+            <p class="price old_price">22500 Р.</p>
+            <p class="price new-price">15500 Р.</p>
 
             <button class="button button-buy" type="button">Купить</button>
             <button class="button-bookmark" type="button">В закладки</button>
@@ -173,8 +202,8 @@
             <h3>
               <a href="blank.html">Перфоратор BOSCHBFG 6000</a>
             </h3>
-            <p class="old_price">30500 Р.</p>
-            <p class="new-price">25500 Р.</p>
+            <p class="price old_price">30500 Р.</p>
+            <p class="price new-price">25500 Р.</p>
 
             <button class="button button-buy" type="button">Купить</button>
             <button class="button-bookmark" type="button">В закладки</button>
@@ -192,8 +221,8 @@
             <h3>
               <a href="blank.html">Перфоратор BOSCHBFG 2000</a>
             </h3>
-            <p class="old_price">22500 Р.</p>
-            <p class="new-price">12500 Р.</p>
+            <p class="price old_price">22500 Р.</p>
+            <p class="price new-price">12500 Р.</p>
 
             <button class="button button-buy" type="button">Купить</button>
             <button class="button-bookmark" type="button">В закладки</button>
