@@ -1,0 +1,33 @@
+:root {
+  --basic-black: #000000;
+  --basic-white: #ffffff;
+  --basic-red: #ee3643;
+  --basic-green: #63a63e;
+  --basic-grey: #3d546f;
+  --basic-greylight: #c5c5c5;
+  --basic-grey-background: #f1f5f7;
+  --special-ylellow: #ffbf47;
+  --special-blue: #3bbce3;
+  --special-lilac: #dc91d8;
+  --special-greenlight: #8ed78f;
+  --special-yellowlight: #ffd180;
+  --success: #5fbb2d;
+  --warning: #ffbf47;
+  --error: #ba2732;
+}
+
+body {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+/*   font-family: 'PT Sans', sans-serif; шрифт карточек */
+
+
