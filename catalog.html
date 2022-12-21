@@ -110,13 +110,25 @@
         </ul>
       </div>
 
-      <h1>Перфораторы</h1>
+      <h1 class="title-catalog">Перфораторы</h1>
 
       <section class="filters">
         <h2>Фильтр товаров</h2>
-        <p>Фильтр:</p>
+        <p class="filter-title">Фильтр:</p>
+        <section class="catalog">
+        <h2>Товары</h2>
+
+        <ul class="sorting-list">
+          <li>Сортировка:</li>
+          <li class="sorting-item sorting-active"><p>По цене</p></li>
+          <li class="sorting-item"><p>По типу</p></li>
+          <li class="sorting-item"><p>По функционалу</p></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+        </ul>
+
         <form class="filter" action="https://echo.htmlacademy.ru" method="get">
-          <fieldset>
+          <fieldset class="filter-range">
             <legend>Цена:</legend>
             <input
               class="filter-input-range"
@@ -133,7 +145,7 @@
 
           <fieldset>
             <legend>Производители:</legend>
-            <ul>
+            <ul class="filter-option">
               <li class="filter-optoin filter-checkbox">
                 <input
                   class="filter-input-checkbox"
@@ -181,8 +193,8 @@
 
           <fieldset>
             <legend>Питание:</legend>
-            <ul class="filter-option filter-radio">
-              <li>
+            <ul class="filter-option">
+              <li class="filter-radio">
                 <input
                   class="filter-input-radio"
                   type="radio"
@@ -192,7 +204,7 @@
                 />
                 <label for="battery">Аккумуляторные</label>
               </li>
-              <li>
+              <li class="filter-radio">
                 <input
                   class="filter-input-radio"
                   type="radio"
@@ -210,13 +222,6 @@
 
       <section class="catalog">
         <h2>Товары</h2>
-        <p>Сортировка:</p>
-        <ul class="sorting">
-          <li><a>По цене</a></li>
-          <li><a href="#">По типу</a></li>
-          <li><a href="#">По функционалу</a></li>
-        </ul>
-
         <ul class="catalog-list">
           <li class="catalog-item">
             <h3>
@@ -230,11 +235,11 @@
                 height="128"
               />
             </p>
-            <p class="old-price">30500 р.</p>
-            <p class="new-price">25500 р.</p>
+            <p class="price old_price">30500 р.</p>
+            <p class="price new-price">25500 р.</p>
 
-            <button class="button button-buy" type="button">Купить</button>
-            <button class="button-bookmark" type="button">В закладки</button>
+            <button class="button-cotalog-item button-buy" type="button">Купить</button>
+            <button class="button-cotalog-item button-bookmark" type="button">В закладки</button>
           </li>
           <li class="catalog-item">
             <h3>
@@ -248,11 +253,11 @@
                 height="128"
               />
             </p>
-            <p class="old-price">30500 р.</p>
-            <p class="new-price">25500 р.</p>
+            <p class="price old_price">30500 р.</p>
+            <p class="price new-price">25500 р.</p>
 
-            <button class="button button-buy" type="button">Купить</button>
-            <button class="button-bookmark" type="button">В закладки</button>
+            <button class="button-cotalog-item button-buy" type="button">Купить</button>
+            <button class="button-cotalog-item button-bookmark" type="button">В закладки</button>
           </li>
           <li class="catalog-item">
             <h3>
@@ -267,11 +272,11 @@
                 height="128"
               />
             </p>
-            <p class="old-price">30500 р.</p>
-            <p class="new-price">25500 р.</p>
+            <p class="price old_price">30500 р.</p>
+            <p class="price new-price">25500 р.</p>
 
-            <button class="button button-buy" type="button">Купить</button>
-            <button class="button-bookmark" type="button">В закладки</button>
+            <button class="button-cotalog-item button-buy" type="button">Купить</button>
+            <button class="button-cotalog-item button-bookmark" type="button">В закладки</button>
           </li>
           <li class="catalog-item">
             <h3>
@@ -286,11 +291,11 @@
                 height="128"
               />
             </p>
-            <p class="old-price">22500 р.</p>
-            <p class="new-price">15500 р.</p>
+            <p class="price old_price">22500 р.</p>
+            <p class="price new-price">15500 р.</p>
 
-            <button class="button button-buy" type="button">Купить</button>
-            <button class="button-bookmark" type="button">В закладки</button>
+            <button class="button-cotalog-item button-buy" type="button">Купить</button>
+            <button class="button-cotalog-item button-bookmark" type="button">В закладки</button>
           </li>
           <li class="catalog-item">
             <h3>
@@ -304,11 +309,11 @@
                 height="128"
               />
             </p>
-            <p class="old-price">30500 р.</p>
-            <p class="new-price">25500 р.</p>
+            <p class="price old_price">30500 р.</p>
+            <p class="price new-price">25500 р.</p>
 
-            <button class="button button-buy" type="button">Купить</button>
-            <button class="button-bookmark" type="button">В закладки</button>
+            <button class="button-cotalog-item button-buy" type="button">Купить</button>
+            <button class="button-cotalog-item button-bookmark" type="button">В закладки</button>
           </li>
           <li class="catalog-item">
             <h3>
@@ -324,10 +329,10 @@
               />
             </p>
 
-            <p class="new-price">12500 р.</p>
+            <p class="price new-price">12500 р.</p>
 
-            <button class="button button-buy" type="button">Купить</button>
-            <button class="button-bookmark" type="button">В закладки</button>
+            <button class="button-cotalog-item button-buy" type="button">Купить</button>
+            <button class="button-cotalog-item button-bookmark" type="button">В закладки</button>
           </li>
           <li class="catalog-item">
             <h3>
@@ -342,11 +347,11 @@
                 height="128"
               />
             </p>
-            <p class="old-price">22500 р.</p>
-            <p class="new-price">15500 р.</p>
+            <p class="price old_price">22500 р.</p>
+            <p class="price new-price">15500 р.</p>
 
-            <button class="button button-buy" type="button">Купить</button>
-            <button class="button-bookmark" type="button">В закладки</button>
+            <button class="button-cotalog-item button-buy" type="button">Купить</button>
+            <button class="button-cotalog-item button-bookmark" type="button">В закладки</button>
           </li>
           <li class="catalog-item">
             <h3>
@@ -360,11 +365,11 @@
                 height="128"
               />
             </p>
-            <p class="old-price">30500 р.</p>
-            <p class="new-price">25500 р.</p>
+            <p class="price old_price">30500 р.</p>
+            <p class="price new-price">25500 р.</p>
 
-            <button class="button button-buy" type="button">Купить</button>
-            <button class="button-bookmark" type="button">В закладки</button>
+            <button class="button-cotalog-item button-buy" type="button">Купить</button>
+            <button class="button-cotalog-item button-bookmark" type="button">В закладки</button>
           </li>
           <li class="catalog-item">
             <h3>
@@ -380,11 +385,18 @@
               />
             </p>
 
-            <p class="new-price">12500 р.</p>
+            <p class="price new-price">12500 р.</p>
 
-            <button class="button button-buy" type="button">Купить</button>
-            <button class="button-bookmark" type="button">В закладки</button>
+            <button class="button-cotalog-item button-buy" type="button">Купить</button>
+            <button class="button-cotalog-item button-bookmark" type="button">В закладки</button>
           </li>
+        </ul>
+
+        <ul class="pagination-list">
+          <li class="pagination-item pagination-item-current"><a href="#">1</a></li>
+          <li class="pagination-item"><a href="#">2</a></li>
+          <li class="pagination-item"><a href="#">3</a></li>
+          <li class="pagination-item"><a href="#">Следующая</a></li>
         </ul>
       </section>
     </main>
@@ -392,31 +404,31 @@
     <footer class="main-footer">
       <section class="footer-navigation">
         <a href="#" class="logo_footer"
-          ><img src="img/logo-footer.png" alt="Логотип" width="220" height="68"
+          ><img src="/img/logo-footer.png" alt="Логотип"
         /></a>
-        <p>
+        <p class="footer-adres">
           г. Санкт-Петербург, наб. Реки Карповки, 5 лит П
           <a href="tel:+78005558628">+7 800 555-86-28</a>
         </p>
         <ul class="footer-list-navigation">
-          <li>Компания</li>
-          <li>Новости</li>
-          <li>Каталог</li>
-          <li>Доставка</li>
-          <li>Контакты</li>
+          <li><a href="#">Компания</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="#">Каталог</a></li>
+          <li><a href="#">Доставка</a></li>
+          <li><a href="#">Контакты</a></li>
         </ul>
 
         <ul class="footer-catalog-navogation">
-          <li>Материалы</li>
-          <li>Техника</li>
-          <li>Инструмент</li>
-          <li>Спецпредложения</li>
+          <li><a href="#">Материалы</a></li>
+          <li><a href="#">Техника</a></li>
+          <li><a href="#">Инструмент</a></li>
+          <li><a href="#">Спецпредложения</a></li>
         </ul>
       </section>
 
-      <section class="footer-contacts">
+      <section class="footer-social">
         <p>© 2010–2021 Компания «Техномарт» Все права защищены</p>
-        <ul class="footer-social">
+        <ul class="social">
           <li>
             <a href="">Вконтакте</a>
           </li>
